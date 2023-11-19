@@ -1,7 +1,8 @@
 // const express = require("express");
 import "dotenv/config";
-// import session from "express-session";
+
 import express from "express";
+// import session from "express-session";
 import HelloRoutes from "./hello.js";
 import Lab5 from "./Lab5.js";
 import CourseRoutes from "./courses/routes.js";
