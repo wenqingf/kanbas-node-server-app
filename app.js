@@ -10,7 +10,8 @@ import AssignmentRoutes from "./assignments/routes.js";
 import UserRoutes from "./users/routes.js";
 import cors from "cors";
 import mongoose from "mongoose";
-const CONNECTION_STRING = process.env.DB_CONNECTION_STRING 
+//const USERS_API = `${BASE_API}/api/users`
+const CONNECTION_STRING = `${process.env.DB_CONNECTION_STRING}`
 // || 'mongodb://127.0.0.1:27017/kanbas
 mongoose.connect(CONNECTION_STRING);
 // mongoose.connect("mongodb://localhost:27017/kanbas-cs5610-fa23");
